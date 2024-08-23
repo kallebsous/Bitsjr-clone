@@ -28,11 +28,16 @@ header{
     align-items: center;
     height: 90px;
 }
+.icons-header{
+    display: flex;
+    gap: 20px;
+}
 .icons-header a{
     text-decoration: none;
 }
 .icons-header a svg:hover{
     fill: var(--cor-destaque);
+    scale: 1.1;
 }
 .logo-header img{
     width: 100%;
