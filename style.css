@@ -104,6 +104,11 @@ header{
     background-color: var(--cor-details);
     border: none;
     border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.5s ease-in-out;
+}
+.div-section1-texto button:hover{
+    scale: 1.1;
 }
 .div-section1-texto button a{
     text-decoration: none;
